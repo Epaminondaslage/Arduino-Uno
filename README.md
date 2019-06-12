@@ -1,6 +1,6 @@
 # Arduino UNO
 
-<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/Placa%20Wemos%20D1%20R2.png" height="200" width="200">
+<img src="https://github.com/Epaminondaslage/Arduino-Uno/blob/master/Figuras/Arduino%20Uno%20R3.png" height="200" width="200">
 
 ## Sumário
 * [Informações Gerais](#user-content-informacoes_gerais)
