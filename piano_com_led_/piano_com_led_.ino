@@ -1,5 +1,7 @@
 /*******************************************************************************
+*    CEFET-MG
 *    Exercício 06 – Projeto Piano com Buzzer                                   *
+*    Disciplina : Informática
 *******************************************************************************/
 const int ledpino1 = 13;
 const int ledpino2 = 12;
@@ -44,7 +46,8 @@ void loop() {
         tom = 500;
         digitalWrite(ledpino3, HIGH);
         }
- 
+
+ //teste de tom
     if(tom > 0) { //enquanto Tom for maior que zero faça o que esta descrit o baixo:
         digitalWrite(som, HIGH); // Liga buzzer
         delayMicroseconds(tom); // Espera o tempo proporcional ao comprimento de onda da nota musical em milisegundos
