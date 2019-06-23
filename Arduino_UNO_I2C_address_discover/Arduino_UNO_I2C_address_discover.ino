@@ -1,3 +1,9 @@
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                   Utiliza para descobrir endereço de I2C
+                    Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
 
 #include <Wire.h>
 #define TEMPOLEITURA 100

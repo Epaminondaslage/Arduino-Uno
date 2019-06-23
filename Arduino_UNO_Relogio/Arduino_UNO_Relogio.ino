@@ -1,10 +1,14 @@
-
-//  Modificado em 17/06/19
-// Relógio com o integrado DS3231 (RTC)
-// Clube de Robótica da ESGC – 2017
-// Prof. Ramiro Martins
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                    Relógio com o integrado DS3231 (RTC)
+                    Elaborado/Adptado por Epaminondas Lage
+                    Clube de Robótica da ESGC – 2017
+                    Prof. Ramiro Martins
+                    Modificado em 17/06/19
+ **************************************************************************/ 
 #include <DS3231.h>
 DS3231 rtc(SDA, SCL);
+
 void setup()
 {
   // Inicialização da comunicação
@@ -22,13 +26,13 @@ void setup()
 void loop()
 {
   // Le o dia de semana
-  Serial.print(“Dia da semana: “);
+  Serial.print("Dia da semana: ");
   Serial.println(rtc.getDOWStr());
   // Le a data
-  Serial.print(“Data: “);
+  Serial.print("Data: ");
   Serial.println(rtc.getDateStr());
   // Envia as horas
-  Serial.print(“Horas: “);
+  Serial.print("Horas: ");
   Serial.println(rtc.getTimeStr());
   // Tempo de espera antes de uma nova leitura 1 segundo
   delay (1000);

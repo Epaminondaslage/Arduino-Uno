@@ -1,4 +1,10 @@
-//github
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                                 RTC DSC3231
+                    Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
+//Incluir as libraries
 #include <Wire.h> //Built-in
 #include <RtcDS3231.h> //Library Manager
 RtcDS3231<TwoWire> Rtc(Wire); 

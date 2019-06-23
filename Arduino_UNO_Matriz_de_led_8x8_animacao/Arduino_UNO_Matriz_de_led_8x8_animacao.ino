@@ -1,10 +1,11 @@
-
-/*
- * Animação com PROGMEM
- * Roda no Arduino Uno e Nano
- * Adaptação Epaminondas Lage
- * Fonte: xantorohara.guithub.io/led_matrix-editor
-*/
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                           Animação com PROGMEM
+                        Roda no Arduino Uno e Nano
+           Fonte: xantorohara.guithub.io/led_matrix-editor
+                  Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
 
  #include <LedControl.h>
 

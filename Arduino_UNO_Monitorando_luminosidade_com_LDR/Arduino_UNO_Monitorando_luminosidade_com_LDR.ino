@@ -1,3 +1,9 @@
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                                 Uso de LDR
+                    Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
 
 #define LAMP 8 //Define o LAMP como 8
 int LDR;   //Variável para a leitura do LDR
@@ -30,5 +36,3 @@ void loop()
 }
 
  
-
-

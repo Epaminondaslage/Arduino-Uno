@@ -1,6 +1,9 @@
-/*******************************************
- * pisca aleatoreamente um dos quatro leds *
- *******************************************/
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+                   Pisca aleatoreamente um dos quatro leds
+                    Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
 long a; 
 int Pinos[] = {9,10,11,12};
 int timer =500;

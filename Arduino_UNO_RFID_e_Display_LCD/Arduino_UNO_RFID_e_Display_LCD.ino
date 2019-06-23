@@ -1,9 +1,10 @@
-/*Programa : RFID - Controle de Acesso leitor RFID com monitoramento por display 16x2 e acionamento de relé
-    
-    Autor : FILIPEFLOP  
-    Adaptação: Epaminondas Lage
-
-    Pinagem Leitor RFID:
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+  RFID - Controle de Acesso leitor RFID com monitoramento por display 16x2 e acionamento de relé
+                    Elaborado/Adptado por Epaminondas Lage
+                            Autor : FILIPEFLOP 
+ 
+   Pinagem Leitor RFID:
  
     Pino SDA  ligado na porta 10 do Arduino
     Pino SCK  ligado na porta 13 do Arduino
@@ -23,7 +24,7 @@
     Pino 13 (D6) ligado ao pino 3 do Arduino
     Pino 14 (D7) ligado ao pino 2 do Arduino
 
-*/
+**************************************************************************/
  
 #include <SPI.h>
 #include <MFRC522.h>

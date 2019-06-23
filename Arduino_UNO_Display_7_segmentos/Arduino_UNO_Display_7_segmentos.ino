@@ -1,6 +1,12 @@
-// Programa para apresentar em um display de 7 segmentos de 0 a 9
-// Display catodo comum
-//Declaração de array para ligar led do display
+/**************************************************************************
+                    Placa de Desenvolvimento Arduino UNO 
+            Programa para apresentar em um display de 7 segmentos de 0 a 9
+                             Display catodo comum
+                         Uso de LDR
+                    Elaborado/Adptado por Epaminondas Lage
+            
+ **************************************************************************/
+
 //                             G F A B E D C
 byte sete_digitos[10][7] = { { 0,1,1,1,1,1,1 },  //DIGITO 0
                              { 0,0,0,1,0,0,1 },  //DIGITO 1
@@ -44,25 +50,3 @@ void loop() {
   }
   delay(4000); //INTERVALO DE 4 SEGUNDOS
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

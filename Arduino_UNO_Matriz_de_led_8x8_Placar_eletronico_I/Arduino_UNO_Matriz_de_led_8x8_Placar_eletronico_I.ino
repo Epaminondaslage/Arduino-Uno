@@ -1,9 +1,10 @@
-/* Programa: Placar Eletronico com Arduino e Max7219
+/**************************************************************************
+ * Programa: Placar Eletronico com Arduino e Max7219
  * Autor: Arduino e Cia 
  * Adaptado por Epaminondas Lage
  * https://www.arduinoecia.com.br/2017/11/placar-eletronico-arduino-modulo-max-7219.html?src=Filipeflop
  * Utiliza duas matriz de LED 8x8 com Max 7219
- * Programa para Arduino Nano
+ * Programa para Arduino UNO/Nano
  * http://xantorohara.github.io/led-matrix-editor/# Editor de caracter
 */
 
