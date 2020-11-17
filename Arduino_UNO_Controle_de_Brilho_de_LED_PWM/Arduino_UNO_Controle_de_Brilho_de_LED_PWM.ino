@@ -4,7 +4,7 @@
                     Elaborado/Adptado por Epaminondas Lage
             
  **************************************************************************/
-int ledPin = 11; 
+int ledPin = 13; 
 float sinVal; 
 int ledVal;   
 void setup() 
