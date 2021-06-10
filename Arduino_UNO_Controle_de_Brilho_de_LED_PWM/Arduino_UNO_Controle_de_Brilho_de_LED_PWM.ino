@@ -4,7 +4,7 @@
                     Elaborado/Adptado por Epaminondas Lage
             
  **************************************************************************/
-int ledPin = 13; 
+int ledPin = 9; 
 float sinVal; 
 int ledVal;   
 void setup() 
@@ -13,7 +13,7 @@ void setup()
 } 
 void loop() 
 { 
-  for (int x=0; x<180; x++) 
+  for (int x=10; x<180; x++) 
   { 
     // converte graus para radianos e então obtém o valor do seno 
     sinVal = (sin(x*(3.1412/180))); 
